@@ -1,6 +1,6 @@
-# Movie_Recommendation_System_Using_Machine_Learning
+# Movie Recommendation System Using Machine Learning
 
-This is a movie recommendation system based on content based similarity. It recommends movies similar to the user's input movie, based on genres, keywords, taglines, cast, and directors.
+This is a movie recommendation system based on content-based similarity. It recommends movies similar to the user's input movie, based on genres, keywords, taglines, cast, and directors.
 
 ## Dataset
 
@@ -18,7 +18,7 @@ The dataset used for this project is from the TMDB `movies.csv` file, which cont
 
 5. **Genre-based Recommendation:** Users can also get recommendations based on a specific genre. The system filters movies based on the user's input genre and suggests similar movies from that genre.
 
-6. **Director-based Recommendation:** Users can get recommendations based on their favorite director. The system lists movies directed by the specified director.
+6. **Director-based Recommendation:** Users can get recommendations based on their favourite director. The system lists movies directed by the specified director.
 
 7. **Rating-based Recommendation:** Users can input their preferred movie rating, and the system suggests movies with ratings equal to or greater than the input.
 
@@ -33,6 +33,15 @@ The dataset used for this project is from the TMDB `movies.csv` file, which cont
 3. **Top 10 Movies by Director:** Horizontal bar chart showing the top 10 movies directed by a selected director based on their vote average.
 
 4. **Top 10 Movies by Budget:** Bar chart showing the top 10 movies in a specified budget range based on their budget.
+
+## Libraries and Technologies Used
+
+- `numpy`: For numerical computations.
+- `pandas`: For data manipulation and analysis.
+- `sci-kit-learn`: For feature extraction and cosine similarity calculation.
+- `matplotlib`: For data visualization.
+- `seaborn`: For enhanced data visualization.
+- `difflib`: For finding close matches in movie titles.
 
 ## Usage
 
